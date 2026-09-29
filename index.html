@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Selección de rutas para descubrir espacios naturales y culturales de Andalucía.">
-    <title>Rutas de Andalucía | Inicio</title>
+    <title>Rutas de Andalucía</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/app.js" defer></script>
 </head>
@@ -23,6 +23,7 @@
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#rutas">Rutas</a></li>
                     <li><a href="#proyecto">El proyecto</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -187,6 +188,35 @@
                     </p>
                 </div>
             </div>
+        </section>
+        <section class="contact-section" id="contacto" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Ponte en contacto</p>
+                        <h2 id="contact-title">Contacto</h2>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" action="#" method="post">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                 <div>
+                    <label for="correo">Correo electronico</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                 <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="nombre" name="mensaje" rows="6" required></textarea>
+                </div>
+
+                <button class="primary-button" type="submit">
+                    Enviar mensaje
+                </button>
+
+            </form>
         </section>
     </main>
 
